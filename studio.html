@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Шапка сайта -->
@@ -23,18 +27,22 @@
       <nav>
         <b>
           <a href="./studio.html" class="logo"
-            ><span class="logo-web">Web</span>Studio
+            >Web<span class="logo-studio">Studio</span>
           </a>
         </b>
 
         <ul>
-          <li class="header-links"><a href="studio.html">Студия</a></li>
-          <li class="header-links"><a href="portfolio.html">Портфолио</a></li>
-          <li class="header-links"><a href="#">Контакты</a></li>
+          <li><a href="studio.html" class="header-links">Студия</a></li>
+          <li><a href="portfolio.html" class="header-links">Портфолио</a></li>
+          <li><a href="#" class="header-links">Контакты</a></li>
         </ul>
 
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="header-links"
+              >info@devstudio.com
+            </a>
+          </li>
           <li>
             <a href="tel:+380961111111" class="text-color">+380961111111</a>
           </li>
@@ -52,8 +60,8 @@
         <button class="main-btn">Заказать услугу</button>
       </section>
 
-      <section>
-        <h2>Наши преимущества</h2>
+      <section class="main-info">
+        <h2 class="visually-hidden">Наши преимущества</h2>
         <ul>
           <li>
             <h3>Внимание к деталям</h3>
@@ -86,7 +94,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="main-info">
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li><img src="./images/box-1.png" alt="image_1" /></li>
@@ -94,7 +102,7 @@
           <li><img src="./images/box-3.png" alt="image_3" /></li>
         </ul>
       </section>
-      <section>
+      <section class="command-section">
         <h2>Наша команда</h2>
         <ul>
           <li>
@@ -145,8 +153,8 @@
       <address>
         <b>
           <a href="./studio.html" class="logo-footer"
-            ><span class="logo-web">Web</span>Studio
-          </a>
+            >Web<span class="footer-studio">Studio</span></a
+          >
         </b>
         <br />
         <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>

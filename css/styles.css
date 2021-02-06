@@ -10,10 +10,6 @@
   --mailtel-color: rgb(255, 255, 255, 0.6);
 }
 
-h1-h3 {
-  color: var(--black-text);
-}
-
 address {
   font-style: normal;
 }
@@ -30,7 +26,7 @@ img {
 
 .header {
   background-color: var(--header-color);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-btn {
@@ -39,24 +35,43 @@ img {
 }
 
 .text-color {
+  text-decoration: none;
   color: var(--content-color);
 }
 
 .logo {
-  color: var(--black-text);
+  width: 145px;
+  height: 31px;
+  color: var(--blue-text);
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 
-.logo-web {
-  color: var(--blue-text);
+.logo:active :focus :visited {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo:hover {
-  font-family: Roboto, sans-serif;
+  text-decoration: underline;
 }
 
-.header-links:focus,
+.logo-studio {
+  color: var(--black-text);
+}
+
+.header-links {
+  text-decoration: none;
+}
+
 .header-links:hover {
   color: var(--blue-text);
+  text-decoration: underline;
+}
+
+.header-links:active {
+  color: var(--blue-text);
+  text-decoration: underline;
 }
 
 .main-section {
@@ -68,7 +83,28 @@ img {
 }
 
 .logo-footer {
+  width: 145px;
+  height: 31px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: var(--blue-text);
+}
+
+.footer-studio {
   color: var(--white-text);
+}
+
+.logo-footer:hover {
+  text-decoration: underline;
+}
+
+.logo-footer:active :focus :visited {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-footer:hover {
+  text-decoration: underline;
 }
 
 .bg-footer {
@@ -76,9 +112,35 @@ img {
 }
 
 .address-footer {
+  width: 231px;
+  height: 21px;
   color: var(--white-text);
 }
 
 .mailtel-footer {
+  width: 231px;
+  height: 21px;
   color: var(--mailtel-color);
+}
+
+.main-info {
+  background-color: var(--white-text);
+}
+
+.command-section {
+  background-color: var(--section-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
