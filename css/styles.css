@@ -1,0 +1,68 @@
+:root {
+  --white-text: rgb(255, 255, 255);
+  --blue-text: rgb(33, 150, 243);
+  --black-text: rgb(0, 0, 0, 1);
+  --background-color: #2f303a;
+  --heading-color: rgb(33, 33, 33);
+  --content-color: rgb(117, 117, 117);
+  --header-color: rgb(255, 255, 255);
+  --section-color: rgb(245, 244, 250);
+}
+
+body {
+  background-color: var(--header-color);
+  color: var(--content-color);
+}
+
+h1-h3 {
+  color: var(--black-text);
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background-color: var(--header-color);
+  font-family: Roboto;
+}
+
+.main-btn {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
+
+.logo {
+  color: var(--black-text);
+}
+
+.logo-web {
+  color: var(--blue-text);
+}
+
+.logo:hover {
+  font-family: Roboto, sans-serif;
+}
+
+.header-links:focus,
+.header-links:hover {
+  color: var(--blue-text);
+}
+
+.main-section {
+  background-color: var(--background-color);
+}
+
+.main-title {
+  color: var(--header-color);
+}
