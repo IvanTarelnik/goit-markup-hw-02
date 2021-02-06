@@ -2,16 +2,12 @@
   --white-text: rgb(255, 255, 255);
   --blue-text: rgb(33, 150, 243);
   --black-text: rgb(0, 0, 0, 1);
-  --background-color: #2f303a;
+  --background-color: rgb(47, 48, 58);
   --heading-color: rgb(33, 33, 33);
   --content-color: rgb(117, 117, 117);
   --header-color: rgb(255, 255, 255);
   --section-color: rgb(245, 244, 250);
-}
-
-body {
-  background-color: var(--header-color);
-  color: var(--content-color);
+  --mailtel-color: rgb(255, 255, 255, 0.6);
 }
 
 h1-h3 {
@@ -42,6 +38,10 @@ img {
   color: var(--white-text);
 }
 
+.text-color {
+  color: var(--content-color);
+}
+
 .logo {
   color: var(--black-text);
 }
@@ -65,4 +65,20 @@ img {
 
 .main-title {
   color: var(--header-color);
+}
+
+.logo-footer {
+  color: var(--white-text);
+}
+
+.bg-footer {
+  background-color: var(--background-color);
+}
+
+.address-footer {
+  color: var(--white-text);
+}
+
+.mailtel-footer {
+  color: var(--mailtel-color);
 }
