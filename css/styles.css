@@ -5,9 +5,12 @@
   --background-color: rgb(47, 48, 58);
   --heading-color: rgb(33, 33, 33);
   --content-color: rgb(117, 117, 117);
-  --header-color: rgb(255, 255, 255);
   --section-color: rgb(245, 244, 250);
   --mailtel-color: rgb(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 address {
@@ -19,19 +22,32 @@ ul {
 }
 
 img {
+  width: 370px;
+  height: 294px;
   display: block;
-  max-width: 100%;
-  height: auto;
+}
+.command-section img {
+  width: 270px;
+  height: 260px;
 }
 
-.header {
-  background-color: var(--header-color);
+.header,
+.main-info {
+  background-color: var(--white-text);
   font-family: 'Roboto', sans-serif;
 }
 
 .main-btn {
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
   background-color: var(--blue-text);
   color: var(--white-text);
+}
+
+.main-btn:hover {
+  border: 10px solid 
+  color: var(--blue-text);
 }
 
 .text-color {
@@ -47,12 +63,8 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 
-.logo:active :focus :visited {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.logo:hover {
+.logo:hover,
+.logo:focus {
   text-decoration: underline;
 }
 
@@ -64,22 +76,22 @@ img {
   text-decoration: none;
 }
 
-.header-links:hover {
-  color: var(--blue-text);
-  text-decoration: underline;
-}
-
+.header-links:hover,
+.header-links:focus,
 .header-links:active {
   color: var(--blue-text);
   text-decoration: underline;
 }
 
-.main-section {
+.main-section,
+.bg-footer {
   background-color: var(--background-color);
 }
 
-.main-title {
-  color: var(--header-color);
+.main-title,
+.footer-studio,
+.address-footer {
+  color: var(--white-text);
 }
 
 .logo-footer {
@@ -90,41 +102,15 @@ img {
   color: var(--blue-text);
 }
 
-.footer-studio {
-  color: var(--white-text);
-}
-
-.logo-footer:hover {
+.logo-footer:hover,
+.logo-footer:focus {
   text-decoration: underline;
-}
-
-.logo-footer:active :focus :visited {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-}
-
-.logo-footer:hover {
-  text-decoration: underline;
-}
-
-.bg-footer {
-  background-color: var(--background-color);
-}
-
-.address-footer {
-  width: 231px;
-  height: 21px;
-  color: var(--white-text);
 }
 
 .mailtel-footer {
   width: 231px;
   height: 21px;
   color: var(--mailtel-color);
-}
-
-.main-info {
-  background-color: var(--white-text);
 }
 
 .command-section {
@@ -144,3 +130,20 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.portfolio-buttons {
+  border: none;
+  filter: drop-shadow(0px 4px 4px 0px);
+}
+
+.portfolio-buttons:hover {
+  border: 2px solid var(--blue-text);
+}
+
+.portfolio-buttons:focus,
+.portfolio-buttons:active {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+  border: none;
+}
+ 
