@@ -26,6 +26,7 @@ img {
   height: 294px;
   display: block;
 }
+
 .command-section img {
   width: 270px;
   height: 260px;
@@ -45,9 +46,9 @@ img {
   color: var(--white-text);
 }
 
-.main-btn:hover {
-  border: 10px solid 
-  color: var(--blue-text);
+.main-btn:hover,
+.main-btn:focus {
+  border: 2px solid;
 }
 
 .text-color {
@@ -56,8 +57,6 @@ img {
 }
 
 .logo {
-  width: 145px;
-  height: 31px;
   color: var(--blue-text);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -88,15 +87,39 @@ img {
   background-color: var(--background-color);
 }
 
-.main-title,
+.main-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  color: var(--white-text);
+}
+
+.third-headings {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16, 41px;
+}
+
+.second-headings {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 42, 19px;
+  text-align: center;
+}
+
 .footer-studio,
 .address-footer {
   color: var(--white-text);
 }
 
 .logo-footer {
-  width: 145px;
-  height: 31px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   color: var(--blue-text);
@@ -146,4 +169,3 @@ img {
   color: var(--white-text);
   border: none;
 }
- 
