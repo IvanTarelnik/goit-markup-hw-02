@@ -1,12 +1,12 @@
 :root {
   --white-text: rgb(255, 255, 255);
   --blue-text: rgb(33, 150, 243);
-  --black-text: rgb(0, 0, 0, 1);
+  --black-text: rgb(0, 0, 0);
   --background-color: rgb(47, 48, 58);
   --heading-color: rgb(33, 33, 33);
   --content-color: rgb(117, 117, 117);
   --section-color: rgb(245, 244, 250);
-  --mailtel-color: rgb(255, 255, 255, 0.6);
+  --mailtel-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -48,7 +48,7 @@ img {
 
 .main-btn:hover,
 .main-btn:focus {
-  border: 2px solid;
+  border: 2px solid #2196f3;
 }
 
 .text-color {
@@ -56,10 +56,22 @@ img {
   color: var(--content-color);
 }
 
+a .text-color {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .logo {
   color: var(--blue-text);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 31px;
 }
 
 .logo:hover,
@@ -72,6 +84,11 @@ img {
 }
 
 .header-links {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
   text-decoration: none;
 }
 
@@ -95,6 +112,7 @@ img {
   line-height: 60px;
   text-align: center;
   color: var(--white-text);
+  text-transform: uppercase;
 }
 
 .third-headings {
@@ -103,6 +121,7 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 16, 41px;
+  text-transform: uppercase;
 }
 
 .second-headings {
@@ -114,15 +133,27 @@ img {
   text-align: center;
 }
 
-.footer-studio,
+.footer-studio {
+  color: var(--white-text);
+}
+
 .address-footer {
   color: var(--white-text);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .logo-footer {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   color: var(--blue-text);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 31px;
 }
 
 .logo-footer:hover,
@@ -131,9 +162,12 @@ img {
 }
 
 .mailtel-footer {
-  width: 231px;
-  height: 21px;
   color: var(--mailtel-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .command-section {
